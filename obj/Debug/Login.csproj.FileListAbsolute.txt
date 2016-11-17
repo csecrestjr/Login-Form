@@ -1,0 +1,17 @@
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\bin\Debug\Login.exe.config
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\bin\Debug\Database1.mdf
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\bin\Debug\Database1_log.ldf
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\bin\Debug\Login.exe
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\bin\Debug\Login.pdb
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\bin\Debug\EntityFramework.dll
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\bin\Debug\EntityFramework.xml
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login.ContentForm.resources
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login.LoginForm.resources
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login.Properties.Resources.resources
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login.RegisterForm.resources
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login.csproj.GenerateResource.Cache
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login.exe
+c:\users\dusan\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login.pdb
