@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -61,17 +61,31 @@ namespace Login
         private void linkToRegisterForm_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             RegisterForm r = new RegisterForm();
-            r.Show();
+            if (r.ShowDialog() == DialogResult.OK)
+            {
+                RefreshGrid();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            RefreshGrid();
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+            RefreshGrid();
+        }
+
+        private void RefreshGrid()
+        {
             var query = from g in dbe.tblLogin select g;
-
             var queryList = query.ToList();
-
             dataGridView1.DataSource = queryList;
         }
-   
+        
+        
+
+
     }
 }

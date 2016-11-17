@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,7 +21,7 @@ namespace Login
 
         private void btnOkRegister_Click(object sender, EventArgs e)
         {
-                if (txtUsernameRegister.Text == "" || txtPasswordRegister.Text == "")
+            if (txtUsernameRegister.Text == "" || txtPasswordRegister.Text == "")
             {
                 MessageBox.Show("Username and password must be filled out.");
                 return;
@@ -43,27 +43,16 @@ namespace Login
                     l.Email = txtEmailRegister.Text;
 
                     dbe.tblLogin.Add(l);
-
                     dbe.SaveChanges();
 
+                    this.Close();
+                    this.DialogResult = DialogResult.OK;
                     MessageBox.Show("Successfully registered.");
                     break;
                 }
             }
-            ContentForm c = new ContentForm();
 
-            var query = from g in dbe.tblLogin select g;
-
-            var queryList = query.ToList();
-
-            c.dataGridView1.DataSource = queryList;
-
-            c.Show();
-            
-            
-          }
-       }
-
-
+        }
+    }
 }
 
