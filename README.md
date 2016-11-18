@@ -22,7 +22,7 @@ I have entered 3 users in the database. Completed for Code Louisville's Fall 201
 * Insert the widget in a page
 * Configure the properties
 
-#Properties Display
+#Display
 
 * Username placeholder - Standard text to be displayed in username field
 * Password placeholder - Standard text to be displayed in password field
