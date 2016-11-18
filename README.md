@@ -22,9 +22,7 @@ I have entered 3 users in the database. Completed for Code Louisville's Fall 201
 * Insert the widget in a page
 * Configure the properties
 
-#Properties
-
-* #Display
+#Properties Display
 
 * Username placeholder - Standard text to be displayed in username field
 * Password placeholder - Standard text to be displayed in password field
@@ -55,6 +53,6 @@ I have entered 3 users in the database. Completed for Code Louisville's Fall 201
 
 * The runtime returns no feedback about the existence of a username. 
 * This is by design if no SQL is installed you must connect to local db for connection string to run the app. 
-* <add name="Database1Entities" connectionString="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\mssqllocaldb;attachdbfilename=|DataDirectory|\Database1.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+<add name="Database1Entities" connectionString="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\mssqllocaldb;attachdbfilename=|DataDirectory|\Database1.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
 
 #Comments welcome to Calvin Secrest, clsecrest2@gmail.com
