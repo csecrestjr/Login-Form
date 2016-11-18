@@ -46,7 +46,7 @@ I have entered 3 users in the database. Completed for Code Louisville's Fall 201
 * Clone or retrieve this Github project into a preferred folder
 * Locate and open the Login-Form solution in Visual Studio
 * Re-seed the database: In app.config explorer 
- 1. A nested numbered list delete v.11.0 conection string and input local db (if no SQL exists)
+ 1. delete v.11.0 conection string and input local db (if no SQL exists)
 * Open the app file Login 
 * Build and run the project on a preferred web browser
 * See .../LoginForm/Content/Test/... for additional test content
@@ -54,7 +54,7 @@ I have entered 3 users in the database. Completed for Code Louisville's Fall 201
 #Known issues
 
 * The runtime returns no feedback about the existence of a username. 
-* Bullet list This is by design if no SQL is installed you must connect to local db for connection string to run the app. 
+* This is by design if no SQL is installed you must connect to local db for connection string to run the app. 
 * Sub-nested bullet etc <add name="Database1Entities" connectionString="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\mssqllocaldb;attachdbfilename=|DataDirectory|\Database1.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
 
 #Comments welcome to Calvin Secrest, clsecrest2@gmail.com
