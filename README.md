@@ -47,7 +47,7 @@ I have entered 3 users in the database. Completed for Code Louisville's Fall 201
  1. delete v.11.0 conection string and input local db (if no SQL exists)
 * Open the app file Login 
 * Build and run the project on a preferred web browser
-* See .../LoginForm/Content/Test/... for additional test content
+* See .../LoginForm/Content/Debug/... for additional test content
 
 #Known issues
 
